@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    transition: all 1s ease;
+}
+.color-search-inp{
+    display: block;
+    width: 30%;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.color-search-inp::placeholder{
+    color: blue;
+}
+.colors{
+    list-style: none;
+    margin-left: 10px;
+    padding: 0;
+    display: none;
+}
+.color{
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: max-content;
+    cursor: pointer;
+}

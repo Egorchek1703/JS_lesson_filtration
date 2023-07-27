@@ -1,0 +1,32 @@
+.search-inp{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #dddddd;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+.name-list li a{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #dddddd;
+    display: block;
+    cursor: default;
+}
+.name-list li a:hover{
+    background: #eee;
+}
+.header a{
+    font-weight: 600;
+    cursor: pointer !important;
+}
